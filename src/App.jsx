@@ -48,16 +48,10 @@ function AddItemBar() {
     }
 
     return (
-        <div className="addItemBarContainer">
-            <input
-                onChange={handleInputChange}
-                className="addItemInputField"
-                type="text"
-            />
-            <button onClick={handleClick} className="addItemButton">
-                Add Item
-            </button>
-        </div>
+		<div className="addItemBarContainer">
+			<input onChange={handleInputChange} className="addItemInputField" type="text"/>
+			<button onClick={handleClick} className="addItemButton">Add Item</button>
+		</div>
     );
 }
 
